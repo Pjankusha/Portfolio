@@ -1,0 +1,35 @@
+:root{
+  --primary-color: #B1B2FF;
+  --secondary-color:#6E3CBC;
+}
+.contact-link, .about-link{
+  background: var(--primary-color);
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.contact-link:hover,
+.about-link:hover {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+    transform: rotate3d(0, 0, 0, 0deg);
+}
+.btn-color{
+background: var(--primary-color);
+color: var(--secondary-color);
+}
+.btn-color:hover,
+.open>.dropdown-toggle.btn-color {
+  color: #fff !important;
+  background-color: var(--secondary-color) !important;
+}
+.bg-light{
+  background: var(--primary-color) !important;
+}
+.nav-item:hover{
+  background-color: #fff ;
+  color: var(--secondary-color);
+  border-radius: 10px;
+  padding-left: 1px;
+  transition: all 0.4s ease-in-out;
+  transform: rotate3d(0, 0, 0, 0deg);
+}

@@ -1,61 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Page about Maria. Aspiring Front-end developer from Ukraine. More information you can find on her web page">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="/styles/styles.css">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👩‍💻</text></svg>">
-  <title>Front-end developer - Maria Piankova</title>
+  <title>Front-end developer - Maria Piankova. </title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand mb-2" href="/index.html">Maria Piankova 👩‍💻 </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mt-2">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/index.html">Homepage</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="/contact-me-page.html">Contact me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+          <a class="nav-link" href="/about-me-page.html">About me</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-<h1>👋Hi, I am</h1>
-<h2>Maria Piankova</h2>
-<h3>🇺🇦 Front-end developer based in Ukraine</h3>
-<div class="d-flex">
-  <div class="m-2"><a href="">Contact me</a></div>
-  <div class="m-2"><a href="">About me</a></div>
+<h1 class="text-center m-5">👋Hi, I am</h1>
+<h2 class="text-center m-3">Maria Piankova</h2>
+<h3 class="text-center mb-5">🇺🇦 Front-end developer based in Ukraine</h3>
+<div class="d-flex justify-content-center mb-5">
+  <div class="m-2 rounded border p-4 contact-link shadow-sm"><a class="contact-link" href="/contact-me-page.html" title="Contact Maria" >Contact me</a></div>
+  <div class="m-2 rounded border p-4 about-link shadow-sm"><a  class="about-link" href="/about-me-page.html" title="About Maria">About me</a></div>
 </div>
 <div class="container">
-  <div class="row">
-    <div class="col-sm-6">photo</div>
-    <div class="col-sm-6">description/button</div>
+  <div class="row mb-5">
+    <div class="col-md-6">
+      <img class="img-fluid rounded" src="/styles/images/download-1.png" alt="Yoga App">
+    </div>
+    <div class="col-md-6">
+      <p class="page-text mb-5 mt-2">Yoga began to gain popularity in the West at the end of the 19th century. But it was a yoga deeply influenced by Western
+      spiritual and religious ideas, representing in many respects a radical break from the grass-roots yoga lineages of
+      India. The first wave of “export yogis,” headed by Swami Vivekananda, largely ignored asana and tended to focus instead
+      on pranayama, meditation, and positive thinking. The English-educated Vivekananda arrived on American shores in 1893 and
+      was an instant success with the high society of the East Coast. </p>
+      <button type="button" class="btn btn-lg border p-4 shadow btn-color">Launch Yoga App</button>
+    </div>
   </div>
-  <div class="row">
-    <div class="col-sm-6">description/button</div>
-    <div class="col-sm-6">photo</div>
+  <div class="row mb-5">
+    <div class="col-md-6">
+      <p class="page-text mb-5 mt-2">Weather is something everybody deals with, and accurate data of it like what is coming can help users to make inform
+      decisions. With weather apps for iOS and Android, people can exactly know when to expect a change in the weather
+      conditions. Weather apps can give urgent alerts too.
+      <br />
+      Undoubtedly, weather forecasting has come a long way, helping people to know about weather conditions. So, if you are in
+      an area where weather frequently changes from sunny to torrential rain in a matter of minutes, then what is the easiest
+      way to make sure to be prepared for. A suitable answer is a weather application.</p>
+    <button title="Launch Weather App" type="button" class="btn btn-lg border p-4 shadow btn-color">Launch Weather App</button></div>
+    <div class="col-md-6">
+      <img class="img-fluid rounded" src="/styles/images/download.png" alt="Weather App">
+    </div>
   </div>
-  <div class="row">
-    <div class="col-sm-6">description/button</div>
-    <div class="col-sm-6">photo</div>
+  <div class="row mb-5">
+    <div class="col-md-6">
+      <img class="img-fluid rounded" src="/styles/images/download-2.png" alt="Yogurt Page">
+    </div>
+    <div class="col-md-6">
+      <p class="mb-5 mt-2">Yogurt has been a part of the human diet for several millennia and goes by many names throughout the world. The word
+      “yogurt” is believed to have come from the Turkish word “yoğurmak,” which means to thicken, coagulate, or curdle. While
+      references to the health-promoting properties of yogurt date back to 6000 BC in Indian Ayurvedic scripts, it was not
+      until the 20th century that Stamen Grigorov, a Bulgarian medical student, attributed the benefits to lactic acid
+      bacteria. Today, most yogurt is fermented milk that is acidified with viable and well-defined bacteria (Lactobacillus
+      bulgaricus and Streptococcus thermophiles). While patterns of yogurt consumption vary greatly from country to country,
+      consumption is generally low. In the United States and Brazil, for example, only 6% of the population consume yogurt on
+      a daily basis. Low consumption of yogurt represents a missed opportunity to contribute to a healthy lifestyle, as yogurt
+      provides a good to excellent source of highly bioavailable protein and an excellent source of calcium as well as a
+      source of probiotics that may provide a range of health benefits.</p>
+      <button type="button" class="btn btn-lg border p-4 shadow btn-color">Launch Yogurt Page</button>
+    </div>
   </div>
 
 </div>
