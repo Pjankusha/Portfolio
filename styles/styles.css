@@ -33,3 +33,30 @@ color: var(--secondary-color);
   transition: all 0.4s ease-in-out;
   transform: rotate3d(0, 0, 0, 0deg);
 }
+h1,
+h2,
+h3 {
+  font-size: 3rem;
+}
+h3{
+  opacity: 0.7;
+}
+@media (max-width: 767px){
+  .img-index{
+    display: none;
+  }
+  .container{
+    text-align: center;
+  }
+  .container-headers{
+    margin-bottom: 0.7rem;
+    font-size: 2rem;
+  }
+    h1,
+    h2,
+    h3 {
+      font-size: 2rem;
+    }
+  
+
+}
